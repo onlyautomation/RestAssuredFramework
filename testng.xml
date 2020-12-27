@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RestAssuredAPITesting">
+
+	<listeners>
+		<listener class-name="RestUtils.Listeners" />
+	</listeners> 
+
+	<test name="RestAssuredAPITestingFramework">
+		<classes>
+			<class name="TestCases.GetBookingIds" />
+			<class name="TestCases.GetBookingID" />
+			<class name="TestCases.CreateAuthToken" />
+			<class name="TestCases.CreateBooking" />
+			<class name="TestCases.CreateEmployee" />
+		</classes>
+	</test>
+
+</suite>

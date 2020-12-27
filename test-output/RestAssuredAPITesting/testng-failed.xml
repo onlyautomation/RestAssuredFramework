@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssuredAPITesting]">
+  <test thread-count="5" name="RestAssuredAITestingPractice(failed)">
+    <classes>
+      <class name="restassured.GetRequest">
+        <methods>
+          <include name="testWeather"/>
+        </methods>
+      </class> <!-- restassured.GetRequest -->
+    </classes>
+  </test> <!-- RestAssuredAITestingPractice(failed) -->
+</suite> <!-- Failed suite [RestAssuredAPITesting] -->
