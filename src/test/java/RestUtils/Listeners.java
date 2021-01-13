@@ -1,5 +1,8 @@
 package RestUtils;
 
+import java.io.File;
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -45,11 +48,24 @@ public class Listeners extends TestListenerAdapter {
 	public void onTestFailure(ITestResult result)
 	{
 		test=extent.createTest(result.getName()); // create new entry in the report
-		
 		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getName()); // to add name in extent report
 		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getThrowable()); // to add error/exception in extent report
+
+		String imagePath = System.getProperty("user.dir")+"/screenshot/"+result.getName()+".png";
+		File file = new File(imagePath);
+		
+		if(file.exists()) {
+			try {
+				test.fail("Screenshot is below:" + test.addScreenCaptureFromPath(imagePath));
+				} 
+			catch (IOException e) 
+					{
+					e.printStackTrace();
+					}
+			}
+			
+		}
 	
-	}
 	
 	public void onTestSkipped(ITestResult result)
 	{

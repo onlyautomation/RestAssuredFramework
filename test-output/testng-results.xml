@@ -2,96 +2,96 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="RestAssuredAPITesting" duration-ms="15122" started-at="2020-12-27T12:41:25 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+  <suite name="RestAssuredAPITesting" duration-ms="19243" started-at="2021-01-13T19:21:32 AEDT" finished-at="2021-01-13T19:21:51 AEDT">
     <groups>
     </groups>
-    <test name="RestAssuredAPITestingFramework" duration-ms="15122" started-at="2020-12-27T12:41:25 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+    <test name="RestAssuredAPITestingFramework" duration-ms="19243" started-at="2021-01-13T19:21:32 AEDT" finished-at="2021-01-13T19:21:51 AEDT">
       <class name="TestCases.GetBookingIds">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="setup" is-config="true" duration-ms="74" started-at="2020-12-27T12:41:26 AEDT" finished-at="2020-12-27T12:41:26 AEDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="setup" is-config="true" duration-ms="74" started-at="2021-01-13T19:21:32 AEDT" finished-at="2021-01-13T19:21:32 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getBookingIDs()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="getBookingIDs" is-config="true" duration-ms="8514" started-at="2020-12-27T12:41:26 AEDT" finished-at="2020-12-27T12:41:34 AEDT">
+        <test-method status="PASS" signature="getBookingIDs()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="getBookingIDs" is-config="true" duration-ms="11316" started-at="2021-01-13T19:21:32 AEDT" finished-at="2021-01-13T19:21:44 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingIDs -->
-        <test-method status="PASS" signature="testGetBookingIDs()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="testGetBookingIDs" duration-ms="11" started-at="2020-12-27T12:41:34 AEDT" finished-at="2020-12-27T12:41:34 AEDT">
+        <test-method status="PASS" signature="testGetBookingIDs()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="testGetBookingIDs" duration-ms="26" started-at="2021-01-13T19:21:44 AEDT" finished-at="2021-01-13T19:21:44 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetBookingIDs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-27T12:41:34 AEDT" finished-at="2020-12-27T12:41:34 AEDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.GetBookingIds@6acdbdf5]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-01-13T19:21:44 AEDT" finished-at="2021-01-13T19:21:44 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.GetBookingIds -->
       <class name="TestCases.CreateBooking">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="setup" is-config="true" duration-ms="5" started-at="2020-12-27T12:41:38 AEDT" finished-at="2020-12-27T12:41:38 AEDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="setup" is-config="true" duration-ms="6" started-at="2021-01-13T19:21:48 AEDT" finished-at="2021-01-13T19:21:48 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createBooking()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="createBooking" is-config="true" duration-ms="1319" started-at="2020-12-27T12:41:38 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="createBooking()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="createBooking" is-config="true" duration-ms="1444" started-at="2021-01-13T19:21:48 AEDT" finished-at="2021-01-13T19:21:50 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method status="PASS" signature="testBooking()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="testBooking" duration-ms="3" started-at="2020-12-27T12:41:40 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="testBooking()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="testBooking" duration-ms="3" started-at="2021-01-13T19:21:50 AEDT" finished-at="2021-01-13T19:21:50 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBooking -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-27T12:41:40 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CreateBooking@4d41cee]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-01-13T19:21:50 AEDT" finished-at="2021-01-13T19:21:50 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.CreateBooking -->
       <class name="TestCases.CreateAuthToken">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="setup" is-config="true" duration-ms="5" started-at="2020-12-27T12:41:36 AEDT" finished-at="2020-12-27T12:41:36 AEDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="setup" is-config="true" duration-ms="6" started-at="2021-01-13T19:21:45 AEDT" finished-at="2021-01-13T19:21:45 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createToken()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="createToken" is-config="true" duration-ms="2660" started-at="2020-12-27T12:41:36 AEDT" finished-at="2020-12-27T12:41:38 AEDT">
+        <test-method status="PASS" signature="createToken()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="createToken" is-config="true" duration-ms="2873" started-at="2021-01-13T19:21:45 AEDT" finished-at="2021-01-13T19:21:48 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
-        <test-method status="PASS" signature="testPostCreateToken()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="testPostCreateToken" duration-ms="2" started-at="2020-12-27T12:41:38 AEDT" finished-at="2020-12-27T12:41:38 AEDT">
+        <test-method status="PASS" signature="testPostCreateToken()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="testPostCreateToken" duration-ms="1" started-at="2021-01-13T19:21:48 AEDT" finished-at="2021-01-13T19:21:48 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostCreateToken -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-27T12:41:38 AEDT" finished-at="2020-12-27T12:41:38 AEDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CreateAuthToken@17579e0f]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-01-13T19:21:48 AEDT" finished-at="2021-01-13T19:21:48 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.CreateAuthToken -->
       <class name="TestCases.CreateEmployee">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="setup" is-config="true" duration-ms="4" started-at="2020-12-27T12:41:40 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="setup" is-config="true" duration-ms="6" started-at="2021-01-13T19:21:50 AEDT" finished-at="2021-01-13T19:21:50 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createEmployee()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="createEmployee" is-config="true" duration-ms="806" started-at="2020-12-27T12:41:40 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="createEmployee()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="createEmployee" is-config="true" duration-ms="1480" started-at="2021-01-13T19:21:50 AEDT" finished-at="2021-01-13T19:21:51 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createEmployee -->
-        <test-method status="PASS" signature="testCreateEmployee()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="testCreateEmployee" duration-ms="1" started-at="2020-12-27T12:41:40 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="testCreateEmployee()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="testCreateEmployee" duration-ms="6" started-at="2021-01-13T19:21:51 AEDT" finished-at="2021-01-13T19:21:51 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateEmployee -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-27T12:41:40 AEDT" finished-at="2020-12-27T12:41:40 AEDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CreateEmployee@3712b94]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-01-13T19:21:51 AEDT" finished-at="2021-01-13T19:21:51 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.CreateEmployee -->
       <class name="TestCases.GetBookingID">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="setup" is-config="true" duration-ms="4" started-at="2020-12-27T12:41:34 AEDT" finished-at="2020-12-27T12:41:34 AEDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="setup" is-config="true" duration-ms="3" started-at="2021-01-13T19:21:44 AEDT" finished-at="2021-01-13T19:21:44 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getBookingID()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="getBookingID" is-config="true" duration-ms="1336" started-at="2020-12-27T12:41:34 AEDT" finished-at="2020-12-27T12:41:36 AEDT">
+        <test-method status="PASS" signature="getBookingID()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="getBookingID" is-config="true" duration-ms="1567" started-at="2021-01-13T19:21:44 AEDT" finished-at="2021-01-13T19:21:45 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingID -->
-        <test-method status="PASS" signature="testGetBookingID()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="testGetBookingID" duration-ms="1" started-at="2020-12-27T12:41:36 AEDT" finished-at="2020-12-27T12:41:36 AEDT">
+        <test-method status="PASS" signature="testGetBookingID()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="testGetBookingID" duration-ms="2" started-at="2021-01-13T19:21:45 AEDT" finished-at="2021-01-13T19:21:45 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetBookingID -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-27T12:41:36 AEDT" finished-at="2020-12-27T12:41:36 AEDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.GetBookingID@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-01-13T19:21:45 AEDT" finished-at="2021-01-13T19:21:45 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
