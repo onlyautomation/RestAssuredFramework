@@ -51,18 +51,15 @@ public class Listeners extends TestListenerAdapter {
 		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getName()); // to add name in extent report
 		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getThrowable()); // to add error/exception in extent report
 
-		String imagePath = System.getProperty("user.dir")+"/screenshot/"+result.getName()+".png";
-		File file = new File(imagePath);
-		
-		if(file.exists()) {
-			try {
-				test.fail("Screenshot is below:" + test.addScreenCaptureFromPath(imagePath));
-				} 
-			catch (IOException e) 
-					{
-					e.printStackTrace();
-					}
-			}
+		/*
+		 * String imagePath =
+		 * System.getProperty("user.dir")+"/screenshot/"+result.getName()+".png"; File
+		 * file = new File(imagePath);
+		 * 
+		 * if(file.exists()) { try { test.fail("Screenshot is below:" +
+		 * test.addScreenCaptureFromPath(imagePath)); } catch (IOException e) {
+		 * e.printStackTrace(); } }
+		 */
 			
 		}
 	
